@@ -3,7 +3,7 @@ import type { ReactElement } from 'react';
 import { Button } from 'antd';
 
 import { NextPageWithLayout } from './_app';
-import BLayout from '../components/layouts/blayout';
+import BLayout from 'components/layouts/blayout';
 
 interface IProps {
   products: any;
