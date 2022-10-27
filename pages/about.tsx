@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next/types';
 import type { ReactElement } from 'react';
-import { Button } from 'antd';
 
 import { NextPageWithLayout } from './_app';
 import BLayout from 'components/layouts/blayout';
@@ -16,7 +15,6 @@ const About: NextPageWithLayout<IProps> = (props) => {
       {products?.map((p: any) => (
         <div key={p.name}>{p?.name}</div>
       ))}
-      <Button type="primary">Button</Button>
     </div>
   );
 };
